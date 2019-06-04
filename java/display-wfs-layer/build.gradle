@@ -23,4 +23,7 @@ android {
 
 dependencies {
     // arcgis-android & appcompat lib dependencies from rootProject build.gradle
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
 }
